@@ -1,0 +1,141 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  color: #00241b;
+}
+body {
+  width: 100vw;
+}
+header {
+  display: flex;
+  width: 100vw;
+  height: 100px;
+  border-bottom: 4px;
+  gap: 20px;
+  background-color: #A2AEBB;
+}
+nav {
+  display: flex;
+  margin-left: 32.5%;
+  justify-content: center;
+  margin-top: 15px;
+}
+main {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #577587;
+}
+footer {
+  width: 100vw;
+  height: 100px;
+  border-top: 4px;
+  background-color: #A2AEBB;
+}
+.header-name {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+.header-menu {
+  display: flex;
+  justify-content: center;
+  background-color: #DFE0E2;
+  border: 2px;
+  color: black;
+  margin-right: 20px;
+  border-radius: 15px;
+  padding: 20px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  padding: 10px;
+  grid-template-rows: 60% 30% 30%;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+.grid-item {
+  padding: 40px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.grid-container div {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+.name-text {
+  margin-top: 90px;
+  background-color: #A2AEBB;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  margin-left: 100px;
+  width: 600px;
+}
+.grid-item img {
+  width: 100%;
+  margin-left: 60px;
+  border-radius: 100%;
+}
+section {
+  width: 80vw;
+  margin-top: 50px;
+}
+.grid-container p {
+  font-size: 18pt;
+  width: 30vw;
+  text-align: center;
+  margin-left: 50px;
+}
+.projects {
+
+  justify-content: center;
+ 
+  gap: 20px;
+}
+.project-pink{
+  background-color: black;
+  border-radius: 20px;  
+  width: 300px;
+  justify-content: center;
+  margin-top: 90px;
+  margin-left: 400px;
+}
+.project-roc {
+  margin-top: 90px;
+  background-color: white;
+  border-radius: 20px;
+  width: 300px;
+  justify-content: center;
+  margin-left: 100px;
+}
+.project-java  {
+  margin-bottom: 50px;
+  background-color: white;
+  border-radius: 10px;
+  justify-content: center;
+  padding: 30px;
+  margin-left: 400px;
+  width: 240px;
+  height: 240px;
+  margin-top: 30px;
+}
+a {
+  text-decoration: none;
+}
+header div img {
+  width: 60px;
+  border-radius: 100%;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+ header div img{
+margin-left: 20px;
+}
